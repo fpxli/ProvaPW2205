@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CADASTRO DE VOLUNTÁRIO</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <a href="login.html">Login</a>
+            <a href="cadastro.html">Cadastro</a>
+            <a href="cadastroVol.html">Cadastro de voluntário</a>
+            <a href="listaVol.html">Lista de voluntários</a>
+        </nav>
+    </header>
+
+    <div class="cadastro-container">
+        <div class="cadastro-form">
+            <form id="formVoluntario">
+                <H2>Realize seu cadastro completo</H2>
+                <h3>E torne-se um voluntário</h3>
+                <label for="nome">Nome:</label>
+                <input type="text" id="txtNome" name="txtNome" placeholder="Digite seu nome" required>
+
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="txtSobrenome" name="txtSobrenome" placeholder="Digite seu sobrenome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="txtEmail" name="email" placeholder="Digite seu email" required>
+                <label for="emailconfirmado">Confirme seu email:</label>
+                <input type="email" id="txtEmailconf" name="emailconfirmado" placeholder="Confirme seu email" required>
+
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" maxlength="9" placeholder="Digite seu CEP" required>
+
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="txtEndereco" name="txtEndereco" placeholder="Seu endereço" readonly required>
+
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="txtBairro" name="txtBairro" placeholder="Seu bairro" readonly required>
+
+                <button type="submit">Cadastrar como voluntário</button>
+            </form>
+        </div>
+    </div>
+    </div>
+
+</body>
+<footer class="footer">
+    <div class="footer-links">
+        <div>
+            <p>POLÍTICA DE PRIVACIDADE</p>
+            <p>TERMOS E CONDIÇÕES</p>
+            <p>DEFINIÇÕES DE COOKIES</p>
+            <p>ENTRE EM CONTATO</p>
+        </div>
+        <div>
+            <p><a href="facebook.com">FACEBOOK</a></p>
+            <p><a href="instagram.com">INSTAGRAM</a></p>
+            <p><a href="#">WHATSAPP</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 ONG</p>
+        <p>R. Américo Brasiliense, 1393 - Chácara Santo Antônio, São Paulo - SP, 04715-003</p>
+    </div>
+</footer>
+</body>
+
+</html>
